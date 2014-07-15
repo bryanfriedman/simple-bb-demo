@@ -38,10 +38,12 @@ else {
 ?>
 
 <tr>
-<td>ID</td>
+<form method="post" action="post.php">
+<td><input type="submit" value="Post" /></td>
 <td><input type="text" name="name" id="name" /></td>
 <td><input type="text" name="email" id="email" /></td>
 <td><textarea name="comment" id="comment"></textarea></td>
+</form>
 </tr>
 
 </table>
