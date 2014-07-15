@@ -1,4 +1,7 @@
 <?php
+ini_set("display_errors", true);
+error_reporting(E_ALL);
+
 $con=mysqli_connect("localhost","bb-user","bb-password","simple-bb-demo");
 // Check connection
 if (mysqli_connect_errno()) {
