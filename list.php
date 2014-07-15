@@ -9,6 +9,10 @@ if (mysqli_connect_errno()) {
 }
 
 $result = mysqli_query($con,"SELECT * FROM main-bb");
+if ( false===$result ) {
+  printf("error: %s\n", mysqli_error($con));
+}
+
 
 while($row = mysqli_fetch_array($result)) {
   echo $row['id'] . " - " . $row['name'] . " - " . $row['email'] . " - " . $row['comment'];
