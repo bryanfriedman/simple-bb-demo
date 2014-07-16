@@ -1,13 +1,4 @@
-<?php
-ini_set("display_errors", true);
-error_reporting(E_ALL);
-
-$con=mysqli_connect("localhost","bb-user","bb-password","simple-bb-demo");
-// Check connection
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
-?>
+<?php include 'sql.php'; ?>
 
 <table border='1'>
 <tr>

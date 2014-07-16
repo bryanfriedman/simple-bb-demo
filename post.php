@@ -1,12 +1,6 @@
-<?php
-ini_set("display_errors", true);
-error_reporting(E_ALL);
+<?php include 'sql.php'; ?>
 
-$con=mysqli_connect("localhost","bb-user","bb-password","simple-bb-demo");
-// Check connection
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
+<?php
 
 // escape variables for security
 $name = mysqli_real_escape_string($con, $_POST['name']);
