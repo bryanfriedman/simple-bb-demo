@@ -1,11 +1,11 @@
 <?php
 
 # Set these parameters for database connection
-$db_host = "70.42.161.35";
+$db_host = "10.81.222.20";
 $db_user = "bb-user"; 
 $db_pass = "bb-password";
 $db_name = "simple-bb-demo";
-$db_port = "80";
+$db_port = "3306";
 
 
 ini_set("display_errors", true);
