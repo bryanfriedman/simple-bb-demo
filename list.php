@@ -1,5 +1,10 @@
 <?php include 'sql.php'; ?>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
+<body>
 <table border='1'>
 <tr>
 <th>ID</th>
@@ -42,3 +47,6 @@ else {
 <?php
 mysqli_close($con);
 ?>
+
+</body>
+</html>
