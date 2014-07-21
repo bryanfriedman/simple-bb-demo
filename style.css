@@ -14,17 +14,17 @@ td, th {
 }
 
 tr:nth-child(odd) {
-    background-color:#E0E0E0;
+    background-color:red;
 }
 
 tr:nth-child(1) {
-    background-color:#666;
+    background-color:yellow;
     color:#FFF;
     font-weight:bold;
 }
 
 tr:nth-child(even) { 
-    background-color:#D0D0D0;
+    background-color:green;
 }
 
 tr:last-child {
